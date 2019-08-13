@@ -10,20 +10,34 @@
   transform: translate(-50%, -50%);
   width: 460px;
   padding-top: 66px;
+  padding-bottom: 56px;
   text-align: center;
 }
 
 .slider__title {
   margin: 0;
   padding: 0;
-  width: 438px;
+  width: 435px;
   color: #ea6266;
-  font-size: 32px;
+  font-size: 33px;
   text-transform: uppercase;
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
 }
 
 .slider__subtitle {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
+  margin-bottom: 46px;
+}
+
+.slider__button {
+  background-color: #ec6166;
+  color: #000000;
+  border: none;
+  padding: 12px 28px;
+  display: block;
+  margin: 0 auto;
 }
