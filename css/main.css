@@ -8,7 +8,13 @@
 @import url('./fonts.css');
 
 
-@import url('./header');
+@import url('./header.css');
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 
 .container {
