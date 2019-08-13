@@ -1,8 +1,10 @@
+/* HEADER */
 .header {
   display: block;
   background-color: #dadada;
 }
 
+/* HEADER INNER */
 .header__inner,
 .header__menu,
 .header__navigations-wrap,
@@ -19,6 +21,8 @@
   padding: 0;
 }
 
+
+/* LOGO */
 .header__logo {
   width: 200px;
 }
@@ -29,6 +33,10 @@
 
 }
 
+
+/* MENU */
+
+/* NAVIGATIONS */
 .header__menu {
   border-bottom: 1px solid #000000;
 }
@@ -50,4 +58,32 @@
 
 .header__navigations-wrap {}
 
+/* SOCIAL ICONS */
 .header__social {}
+
+.header_icons {
+  display: block;
+  width: 26px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+
+.icons_vk {
+  background-image: url('../img/icons/icon_vk.png');
+}
+
+.icons_facebook {
+  background-image: url('../img/icons/icon_facebook.png');
+}
+
+.icons_instagram {
+  background-image: url('../img/icons/icon_instagram.png');
+}
+
+.icons_google {
+  background-image: url('../img/icons/icon_google-plus.png');
+}
