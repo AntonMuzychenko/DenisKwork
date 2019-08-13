@@ -70,6 +70,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-left: 10px;
 }
 
 /* SOCIAL ICONS */
@@ -109,14 +110,26 @@
 }
 
 .header__button {
+  position: relative;
   display: block;
   width: 242px;
   background-color: transparent;
   border: 1px solid #000000;
-  padding: 12px 0;
+  padding: 10px 0;
   border-radius: 19px;
+  padding-left: 27px;
 }
 
 .header__button::before {
-  background-image: url();
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 21px;
+  height: 18px;
+  background-image: url('../img/icons/icon_shape.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
