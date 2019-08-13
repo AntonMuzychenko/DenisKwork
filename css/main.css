@@ -1,0 +1,18 @@
+/* normalize css */
+@import url('./normalize.css');
+
+/*add specifications */
+@import url('./specification.css');
+
+/* fonts */
+@import url('./fonts.css');
+
+
+@import url('./header');
+
+
+.container {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
