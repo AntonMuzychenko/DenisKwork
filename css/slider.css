@@ -1,0 +1,29 @@
+.bgi {
+  background-color: #000000;
+  position: relative;
+}
+
+.slider__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 460px;
+  padding-top: 66px;
+  text-align: center;
+}
+
+.slider__title {
+  margin: 0;
+  padding: 0;
+  width: 438px;
+  color: #ea6266;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.slider__subtitle {
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
