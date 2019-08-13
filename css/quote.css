@@ -1,7 +1,11 @@
+.container__quote {
+    margin-bottom: 50px;
+}
+
 .quote_text {
     display: flex;
     width: 1200px;
-    font-style: 'montserrat';
+    font-style: 'Montserrat';
     text-transform: uppercase;
     font-weight: normal;
     font-size: 30px;
@@ -14,11 +18,13 @@
 
 .quote__radial__down {
     margin: 0 auto;
-    /* margin-right: 200px; */
+    padding-top: 60px;
+    margin-top: 20px;
 }
 
 
 .quote__radial__up {
     margin-right: 200px;
     margin: 0 auto;
+    padding-bottom: 60px;
 }

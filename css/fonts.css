@@ -1,10 +1,10 @@
 /* Acrom-regular(400) */
 
 @font-face {
-  font-family: 'Acrom';
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Acrom-Regular.woff');
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
 }
 
 /* Acrom-medium(500) */
