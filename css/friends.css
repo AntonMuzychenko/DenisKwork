@@ -1,0 +1,39 @@
+.friends__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__list::before {
+  content: '';
+  display: block;
+}
+
+
+.friends__items {
+  padding: 44px 0 24px 0;
+  border: 1px solid #998158;
+  display: block;
+  width: 416px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__image {
+  display: block;
+  width: 140px;
+  height: 180px;
+}
+
+.friends__desc {
+  width: 200px;
+}
+
+
+.friends__text {
+  color: #998158;
+  text-transform: uppercase;
+}

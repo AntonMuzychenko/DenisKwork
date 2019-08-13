@@ -16,6 +16,10 @@
 /* quote */
 @import url('./quote.css');
 
+
+/* friends */
+@import url('./friends.css');
+
 img {
   display: block;
   max-width: 100%;
