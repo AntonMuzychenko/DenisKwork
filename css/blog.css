@@ -57,10 +57,9 @@
 }
 
 .blog__item:nth-child(2n) .blog__desc::after {
-  content: '';
-  left: 0;
-  right: -112px;
-  border-right: 52px solid gray;
+  border: 62px solid transparent;
+  border-left: 52px solid gray;
+  left: 754px
 }
 
 
