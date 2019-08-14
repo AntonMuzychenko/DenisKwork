@@ -4,9 +4,20 @@
 }
 
 .slider__wrapper {
+  position: relative;
   display: block;
   margin: 0 auto;
 }
+
+.slider__wrap {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider__wrapper_left {}
+
+.slider__wrapper_rigth {}
 
 .slider__image {
   width: 200%;
