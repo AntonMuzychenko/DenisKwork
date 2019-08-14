@@ -1,7 +1,7 @@
 /* normalize css */
 @import url('./normalize.css');
 
-/*add specifications */
+/* specifications */
 @import url('./specification.css');
 
 /* fonts */
@@ -32,3 +32,9 @@ img {
   width: 1360px;
   margin: 0 auto;
 }
+
+
+
+/* * {
+  border: 1px solid red;
+} */

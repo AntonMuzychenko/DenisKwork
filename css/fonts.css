@@ -1,32 +1,25 @@
-/* Acrom-regular(400) */
+/* Montserrat */
 
+/* regular */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-regular';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/montserrat/Montserrat-Bold.ttf');
 }
 
-/* Acrom-medium(500) */
+/* italic 400 */
 @font-face {
-  font-family: 'Acrom';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/Acrom-Medium.woff');
+  font-family: 'Montserrat-italic';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/montserrat/Montserrat-Italic.ttf');
 }
 
-/*Acrom-bold(700) */
+/* semi bold */
 @font-face {
-  font-family: 'Acrom';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/Acrom-Bold.woff');
-}
-
-/* Acrom-ExtraBold(800) */
-@font-face {
-  font-family: 'Acrom';
-  font-style: normal;
-  font-weight: 800;
-  src: url('../fonts/Acrom-ExtraBold.woff');
+  font-family: 'Montserrat-semiBold';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
 }

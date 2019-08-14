@@ -1,3 +1,18 @@
+.friends {
+  position: relative;
+}
+
+.friends__line {
+  z-index: -1;
+  display: block;
+  height: 1px;
+  width: 100%;
+  border: 1px solid #998158;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .friends__list {
   margin: 0;
   padding: 0;
@@ -7,14 +22,10 @@
   justify-content: space-between;
 }
 
-.friends__list::before {
-  content: '';
-  display: block;
-}
-
-
 .friends__items {
-  padding: 44px 0 24px 0;
+  position: relative;
+  z-index: 99999;
+  padding: 44px 30px 24px 25px;
   border: 1px solid #998158;
   display: block;
   width: 416px;
@@ -33,7 +44,22 @@
 }
 
 
+.friends__desc p {
+  margin: 0;
+  padding: 0;
+}
+
 .friends__text {
   color: #998158;
   text-transform: uppercase;
+  font-family: 'Montserrat-semiBold';
+}
+
+.friends__subtitle {
+  font-family: 'Montserrat-italic';
+}
+
+.friends__name,
+.friends__city {
+  font-family: 'Montserrat-semiBold';
 }
