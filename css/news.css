@@ -11,16 +11,17 @@
     list-style: none;
     color: #998158;
     margin: 0;
-    font-family: 'Montserrat-Thin';
+    font-family: 'Montserrat-thin';
+    font-style: normal;
+    font-weight: 400;
 
 
 }
 
 .news__logo {
-    width: 35%;
-    margin: 0;
-    padding: 0;
-    margin: 0 10px;
+    width: 405px;
+    margin: 0 auto;
+
 
 
 }
@@ -32,8 +33,7 @@
 }
 
 .news__date {
-    margin-top: 30px;
-    width: 30%;
+    margin: 0 auto;
     list-style: none;
     font-size: 16px;
 
@@ -43,21 +43,23 @@
     list-style: none;
     padding: 0 auto;
     font-size: 30px;
-    text-align: left;
-    margin: 0;
+    margin: 0 auto;
 
 }
 
 .play__holder__nav {
     content: '';
     position: absolute;
-    top: 80%;
+    top: 72%;
     right: 460px;
     transform: translateY(-50%);
     display: block;
     width: 30px;
     height: 30px;
     background-image: url(../img/bestseller/icons_button_bestseller.png);
+    background-repeat: no-repeat;
+    background-color: #998158;
+    border: none;
 }
 
 

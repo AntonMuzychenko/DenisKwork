@@ -1,0 +1,89 @@
+.blog {
+  padding-top: 60px;
+}
+
+.blog__title {
+  font-family: 'Montserrat-thin';
+  font-size: 68px;
+  text-transform: uppercase;
+}
+
+.blog__title-span {
+  font-size: 38px;
+}
+
+
+.blog__item {
+  display: flex;
+}
+
+.blog__item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.blog__image-wrap {
+  display: block;
+  width: 40%;
+  height: 364px;
+  border: 24px solid #bbad9a;
+  background-color: #000000;
+}
+
+.blog__image {
+  display: block;
+  width: 496px;
+  height: 100%;
+}
+
+.blog__desc {
+  z-index: 1;
+  background: gray;
+  position: relative;
+  width: 60%;
+  height: 364px;
+  border: 1px solid #998158;
+  padding: 44px 65px 0 40px;
+}
+
+.blog__desc::after {
+  z-index: 2;
+  content: '';
+  position: absolute;
+  left: -112px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 62px solid transparent;
+  border-right: 52px solid gray;
+}
+
+.blog__item:nth-child(2n) .blog__desc::after {
+  content: '';
+  left: 0;
+  right: -112px;
+  border-right: 52px solid gray;
+}
+
+
+.blog__more {
+  position: relative;
+  /* width: 179px; */
+  height: 30px;
+  text-decoration: underline;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 46px;
+}
+
+.blog__more::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/bestseller/icons_button_bestseller.png);
+}
