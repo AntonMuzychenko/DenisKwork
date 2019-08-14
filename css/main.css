@@ -29,6 +29,9 @@
 /* blog */
 @import url('./blog.css');
 
+/* footer */
+@import url('./footer.css');
+
 img {
   display: block;
   max-width: 100%;

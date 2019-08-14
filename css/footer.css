@@ -1,0 +1,113 @@
+/* FOOTER */
+.footer {
+  display: block;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.footer__inner {
+  display: flex;
+}
+
+.footer__logo-wrap {
+  margin-right: 30px;
+}
+
+.footer__decs {
+  width: 185px;
+  margin-right: 100px;
+}
+
+.footer__decs p {
+  margin: 0;
+}
+
+.footer__menu {}
+
+
+.menu__item a,
+.footer__social a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu__item a {
+  font-size: 16px;
+}
+
+
+.footer__navigations-wrap {
+  padding-top: 26px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+}
+
+/* SOCIAL ICONS */
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  width: 118px;
+  margin-right: 616px;
+  padding-top: 8px;
+}
+
+.footer_icons {
+  display: block;
+  width: 26px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
+
+.icons_vk {
+  background-image: url('../img/icons/icon_vk.png');
+}
+
+.icons_facebook {
+  background-image: url('../img/icons/icon_facebook.png');
+}
+
+.icons_instagram {
+  background-image: url('../img/icons/icon_instagram.png');
+}
+
+.icons_google {
+  background-image: url('../img/icons/icon_google-plus.png');
+}
+
+.footer__button {
+  position: relative;
+  display: block;
+  width: 242px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  padding: 10px 0;
+  border-radius: 19px;
+  padding-left: 27px;
+}
+
+.footer__button::before {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  width: 21px;
+  height: 18px;
+  background-image: url('../img/icons/icon_shape.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
