@@ -23,6 +23,7 @@
 }
 
 .friends__items {
+  background-color: #fff;
   position: relative;
   z-index: 99999;
   padding: 44px 30px 24px 25px;
