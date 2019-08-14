@@ -10,11 +10,11 @@
 /* header */
 @import url('./header.css');
 
-/* quote */
-@import url('./quote.css');
-
 /* slider */
 @import url('./slider.css');
+
+/* quote */
+@import url('./quote.css');
 
 /* news */
 @import url('./news.css');
