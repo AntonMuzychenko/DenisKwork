@@ -45,22 +45,24 @@
 }
 
 
-.friends__desc p {
-  margin: 0;
-  padding: 0;
-}
-
 .friends__text {
+  margin: 0;
+  display: block;
   color: #998158;
   text-transform: uppercase;
   font-family: 'Montserrat-semiBold';
+  margin-bottom: 14px;
 }
 
 .friends__subtitle {
+  margin: 0;
+  display: block;
   font-family: 'Montserrat-italic';
+  margin-bottom: 14px;
 }
 
 .friends__name,
 .friends__city {
   font-family: 'Montserrat-semiBold';
+  margin: 0;
 }
