@@ -1,38 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Document</title>
-  <link rel="stylesheet" href="../css/main.css" />
-</head>
-
-<body>
-  <link rel="import" href="./header.html" />
-  <link rel="import" href="./slider.html" />
-  <link rel="import" href="./quote.html" />
-  <link rel="import" href="./news.html" />
-  <link rel="import" href="./friends.html" />
-  <link rel="import" href="./friends.html" />
-  <link rel="import" href="./bestseller.html" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
 
   <body>
-    <!-- <link rel="import" href="./header.html" /> -->
-    <!-- <link rel="import" href="./slider.html" /> -->
-    <!-- <link rel="import" href="./quote.html" /> -->
-
-    <!-- <link rel="import" href="./friends.html" /> -->
-    <!-- <link rel="import" href="./bestseller.html" /> -->
-
+    <link rel="import" href="./header.html" />
+    <link rel="import" href="./slider.html" />
+    <link rel="import" href="./quote.html" />
+    <link rel="import" href="./news.html" />
+    <link rel="import" href="./friends.html" />
+    <link rel="import" href="./bestseller.html" />
     <link rel="import" href="./blog.html" />
-
 
     <script>
       const link = document.querySelectorAll("link[rel=import]");
       link.forEach(el => document.body.append(el.import.body.children[0]));
     </script>
   </body>
-
 </html>
