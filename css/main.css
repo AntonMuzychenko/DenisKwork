@@ -1,7 +1,7 @@
 /* normalize css */
 @import url('./normalize.css');
 
-/*add specifications */
+/* specifications */
 @import url('./specification.css');
 
 /* fonts */
@@ -20,8 +20,10 @@
 @import url('./news.css');
 
 
+/* friends */
+@import url('./friends.css');
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -33,3 +35,9 @@
   width: 1360px;
   margin: 0 auto;
 }
+
+
+
+/* * {
+  border: 1px solid red;
+} */

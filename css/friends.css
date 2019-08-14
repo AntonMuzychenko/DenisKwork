@@ -1,0 +1,68 @@
+.friends {
+  position: relative;
+}
+
+.friends__line {
+  z-index: -1;
+  display: block;
+  height: 1px;
+  width: 100%;
+  border: 1px solid #998158;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.friends__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__items {
+  background-color: #fff;
+  position: relative;
+  z-index: 99999;
+  padding: 44px 30px 24px 25px;
+  border: 1px solid #998158;
+  display: block;
+  width: 416px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends__image {
+  display: block;
+  width: 140px;
+  height: 180px;
+}
+
+.friends__desc {
+  width: 200px;
+}
+
+
+.friends__text {
+  margin: 0;
+  display: block;
+  color: #998158;
+  text-transform: uppercase;
+  font-family: 'Montserrat-semiBold';
+  margin-bottom: 14px;
+}
+
+.friends__subtitle {
+  margin: 0;
+  display: block;
+  font-family: 'Montserrat-italic';
+  margin-bottom: 14px;
+}
+
+.friends__name,
+.friends__city {
+  font-family: 'Montserrat-semiBold';
+  margin: 0;
+}

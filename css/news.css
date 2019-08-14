@@ -1,26 +1,50 @@
-.container__news {
+.news__box {
     display: flex;
-    flex-direction: column-reverse;
-
-
-}
-
-.news__logo {
-    display: flex;
-    flex: center;
+    flex-wrap: wrap-reverse;
     margin: 0 auto;
+    position: relative;
 }
 
 .news__word {
-    text-align: left;
+    width: 100px;
     list-style: none;
-    font-size: 40px;
+    color: #998158;
+    margin: 0;
+    padding: 0;
+}
+
+.news__logo {
     margin: 0 auto;
-    padding-left: 20px;
+
 
 }
 
 .news__date {
+    color: #888888;
     list-style: none;
-    flex-direction: column;
+    width: 12px;
+}
+
+
+.play__holder__nav {
+    background-color: red;
+    background: url(../img/news/Load_more.png);
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.play__holder {
+    width: 30px;
+    height: 30px;
+}
+
+.holder {
+    height: 100px;
+    width: 55px;
+    margin: 0 auto;
+    background: url(../img/news/Raght__side.png);
+    background-repeat: no-repeat;
+    color: #998158;
+
 }
