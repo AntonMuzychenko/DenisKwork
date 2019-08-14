@@ -20,6 +20,9 @@
 /* friends */
 @import url('./friends.css');
 
+/* bestseller */
+@import url('./bestseller.css');
+
 img {
   display: block;
   max-width: 100%;
