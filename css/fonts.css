@@ -23,3 +23,11 @@
   font-weight: 400;
   src: url('../fonts/montserrat/Montserrat-SemiBold.ttf');
 }
+
+/* thin */
+@font-face {
+  font-family: 'Montserrat-thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat/Montserrat-Thin.ttf');
+}

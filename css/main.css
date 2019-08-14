@@ -23,6 +23,9 @@
 /* bestseller */
 @import url('./bestseller.css');
 
+/* blog */
+@import url('./blog.css');
+
 img {
   display: block;
   max-width: 100%;
@@ -32,7 +35,7 @@ img {
 
 .container {
   display: block;
-  width: 1360px;
+  width: 1300px;
   margin: 0 auto;
   font-family: 'Montserrat-regular';
 }
