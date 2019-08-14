@@ -1,50 +1,78 @@
 .news__box {
     display: flex;
-    flex-wrap: wrap-reverse;
+    justify-content: space-around;
     margin: 0 auto;
+    padding-bottom: 60px;
     position: relative;
 }
 
 .news__word {
-    width: 100px;
+    font-size: 80px;
     list-style: none;
     color: #998158;
     margin: 0;
-    padding: 0;
+    font-family: 'Montserrat-Thin';
+
+
 }
 
 .news__logo {
-    margin: 0 auto;
+    width: 35%;
+    margin: 0;
+    padding: 0;
+    margin: 0 10px;
 
 
+}
+
+.date {
+    color: #888888;
+    list-style: none;
+    font-size: 16px;
 }
 
 .news__date {
-    color: #888888;
+    margin-top: 30px;
+    width: 30%;
     list-style: none;
-    width: 12px;
+    font-size: 16px;
+
 }
 
+.news__text {
+    list-style: none;
+    padding: 0 auto;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+
+}
 
 .play__holder__nav {
-    background-color: red;
-    background: url(../img/news/Load_more.png);
-    font-size: 30px;
+    content: '';
+    position: absolute;
+    top: 80%;
+    right: 460px;
+    transform: translateY(-50%);
+    display: block;
     width: 30px;
     height: 30px;
+    background-image: url(../img/bestseller/icons_button_bestseller.png);
 }
 
-.play__holder {
-    width: 30px;
-    height: 30px;
-}
+
+
 
 .holder {
+    content: '';
+    position: absolute;
+    width: 50px;
     height: 100px;
-    width: 55px;
-    margin: 0 auto;
     background: url(../img/news/Raght__side.png);
     background-repeat: no-repeat;
     color: #998158;
-
+    top: 30%;
+    right: 20px;
+    transform: translateY(-40%);
+    border: none;
 }

@@ -23,6 +23,9 @@
 /* friends */
 @import url('./friends.css');
 
+/* bestseller */
+@import url('./bestseller.css');
+
 img {
   display: block;
   max-width: 100%;
@@ -34,6 +37,7 @@ img {
   display: block;
   width: 1360px;
   margin: 0 auto;
+  font-family: 'Montserrat-regular';
 }
 
 
