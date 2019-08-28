@@ -8,14 +8,17 @@
     font-style: 'Montserrat';
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 24px;
     font-size-adjust: 12px;
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: 50px;
 
 }
 
+
 .quote__radial__down {
+    width: 870px;
     margin: 0 auto;
     padding-top: 60px;
     margin-top: 20px;
@@ -23,6 +26,7 @@
 
 
 .quote__radial__up {
+    width: 870px;
     margin-right: 200px;
     margin: 0 auto;
     padding-bottom: 60px;
