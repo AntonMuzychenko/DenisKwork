@@ -27,7 +27,7 @@
 }
 
 .news__date {
-    margin: 0 auto;
+    margin-left: 15px;
     list-style: none;
     font-size: 16px;
 
@@ -45,7 +45,7 @@
     content: '';
     position: absolute;
     top: 72%;
-    right: 460px;
+    right: 420px;
     transform: translateY(-50%);
     display: block;
     width: 30px;
