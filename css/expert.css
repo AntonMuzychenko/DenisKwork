@@ -53,7 +53,9 @@
   position: relative;
 }
 
-
+.position__expert {
+  margin: 20px 0px 0px 35px;
+}
 
 .position__tv {
   text-transform: uppercase;

@@ -22,14 +22,14 @@
 }
 
 .header__menu {
-  padding-bottom: 20px;
+  padding: 10px;
 }
 
 /* LOGO */
 .header__logo {
   width: 200px;
   height: 10%;
-  padding-bottom: 20px;
+  margin: 20px 0px 20px 75px;
 }
 
 .header__navigations {
@@ -48,6 +48,7 @@
 
 /* NAVIGATIONS */
 .header__menu {
+  margin-top: 20px;
   border-bottom: 1px solid #000000;
   /* width: 800px; */
 }
@@ -69,11 +70,12 @@
 
 
 .header__navigations-wrap {
-  padding-top: 26px;
+  padding-top: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-left: 10px;
+  margin: 20px;
 }
 
 /* SOCIAL ICONS */
