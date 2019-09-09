@@ -1,7 +1,7 @@
 /* HEADER */
 .header {
   display: block;
-  background-color: #dadada;
+  background-color: #f0efef;
 }
 
 /* HEADER INNER */
@@ -22,17 +22,19 @@
 }
 
 .header__menu {
-  padding-bottom: 20px;
+  padding: 10px;
 }
 
 /* LOGO */
 .header__logo {
   width: 200px;
+  height: 10%;
+  margin: 20px 0px 20px 75px;
 }
 
 .header__navigations {
   display: block;
-  padding-top: 53px;
+
 
 }
 
@@ -46,7 +48,9 @@
 
 /* NAVIGATIONS */
 .header__menu {
+  margin-top: 20px;
   border-bottom: 1px solid #000000;
+  /* width: 800px; */
 }
 
 .menu__item {
@@ -66,11 +70,12 @@
 
 
 .header__navigations-wrap {
-  padding-top: 26px;
+  padding-top: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-left: 10px;
+  margin: 20px;
 }
 
 /* SOCIAL ICONS */
@@ -79,7 +84,6 @@
   justify-content: space-between;
   width: 118px;
   margin-right: 616px;
-  padding-top: 8px;
 }
 
 .header_icons {
@@ -112,23 +116,23 @@
 .header__button {
   position: relative;
   display: block;
-  width: 242px;
+  width: 194px;
   background-color: transparent;
   border: 1px solid #000000;
-  padding: 10px 0;
-  border-radius: 19px;
-  padding-left: 27px;
+  padding: 3px 0;
+  border-radius: 17px;
+  padding-left: 47px;
 }
 
 .header__button::before {
   display: block;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 10%;
+  transform: translateX(-140%);
   content: "";
-  width: 21px;
-  height: 18px;
-  background-image: url('../img/icons/icon_shape.png');
+  width: 20px;
+  height: 16px;
+  background-image: url(../img/icons/icon_shape.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

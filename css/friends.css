@@ -66,3 +66,18 @@
   font-family: 'Montserrat-semiBold';
   margin: 0;
 }
+
+.more__detail {
+  margin-bottom: 20px;
+  font-family: 'Montserrat-semiBold';
+  text-transform: uppercase;
+  position: relative;
+  width: 146px;
+  height: 30px;
+  text-decoration: underline;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 20px;
+}

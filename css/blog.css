@@ -5,6 +5,7 @@
 justify-content: center; */
   width: 100%;
 }
+
 /* 
 .wrap{
   display: flex;
@@ -31,6 +32,7 @@ justify-content: center; */
   text-decoration: none;
   margin-bottom: 40px;
 }
+
 .blog__image {
   /* width: 30%; */
   /* height: 70%; */
@@ -42,6 +44,7 @@ justify-content: center; */
   text-decoration: none;
   list-style: none;
 }
+
 .blog__image-wrap {
   text-decoration: none;
   list-style: none;

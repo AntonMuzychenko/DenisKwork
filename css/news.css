@@ -20,16 +20,17 @@
 
 .news__logo {
     width: 405px;
-    margin: 0 auto;
+    margin: 0;
 
 
 
 }
 
 .news__date {
-    gi margin-left: 15px;
+    margin-left: 15px;
     list-style: none;
     font-size: 16px;
+    margin-top: 38px;
 
 }
 
@@ -45,7 +46,7 @@
     content: '';
     position: absolute;
     top: 72%;
-    right: 420px;
+    right: 480px;
     transform: translateY(-50%);
     display: block;
     width: 30px;
