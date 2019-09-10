@@ -46,7 +46,10 @@ img {
   display: block;
   width: 1300px;
   margin: 0 auto;
-  font-family: 'Montserrat-regular';
+  font-family: 'Montserrat-Regular', 'Montserrat-LightItalic',
+    'EBGaramond-Regular';
+
+
 }
 
 

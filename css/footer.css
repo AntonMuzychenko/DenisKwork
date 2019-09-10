@@ -57,7 +57,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* padding-left: 10px; */
+
 }
 
 /* SOCIAL ICONS */
@@ -80,6 +80,8 @@
 
 .icons_vk {
   background-image: url('../img/icons/icon_vk.png');
+
+
 }
 
 .icons_facebook {

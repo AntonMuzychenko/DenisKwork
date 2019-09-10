@@ -4,21 +4,24 @@
 
 .quote_text {
     display: flex;
+    flex-direction: column;
     width: 1200px;
-    font-style: 'Montserrat';
+    /* font-family: 'EBGaramond-Regular'; */
+    font-family: 'EBGaramond-Medium';
+    font-family: sans-serif;
+
+
     text-transform: uppercase;
-    font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     font-size-adjust: 12px;
     text-align: center;
-    /* margin: 0 auto; */
-    margin: 50px;
+    margin: 20px;
 
 }
 
 
 .quote__radial__down {
-    width: 870px;
+    width: 650px;
     margin: 0 auto;
     padding-top: 60px;
     margin-top: 20px;
@@ -26,8 +29,8 @@
 
 
 .quote__radial__up {
-    width: 870px;
-    margin-right: 200px;
+    width: 650px;
+    /* margin-right: 200px; */
     margin: 0 auto;
     padding-bottom: 60px;
 }

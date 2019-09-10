@@ -23,6 +23,9 @@
 
 .header__menu {
   padding: 10px;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  font-weight: normal;
 }
 
 /* LOGO */
@@ -50,7 +53,7 @@
 .header__menu {
   margin-top: 20px;
   border-bottom: 1px solid #000000;
-  /* width: 800px; */
+  width: 1000px;
 }
 
 .menu__item {
@@ -65,7 +68,7 @@
 }
 
 .menu__item a {
-  font-size: 16px;
+  font-size: 6px;
 }
 
 
