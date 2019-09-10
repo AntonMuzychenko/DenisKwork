@@ -78,22 +78,11 @@
   border-radius: 50%;
 }
 
-.icons_vk {
-  background-image: url('../img/icons/icon_vk.png');
-
-
-}
-
-.icons_facebook {
-  background-image: url('../img/icons/icon_facebook.png');
-}
-
-.icons_instagram {
-  background-image: url('../img/icons/icon_instagram.png');
-}
-
-.icons_google {
-  background-image: url('../img/icons/icon_google-plus.png');
+.icons__soc {
+  display: flex;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
 }
 
 .footer__button {
