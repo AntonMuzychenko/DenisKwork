@@ -1,0 +1,49 @@
+/* Page Nav */
+
+.page-navigation {
+  background-color: rgb(60, 60, 59);
+}
+
+.page-navigation__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-navigation__link {
+  font-size: 14px;
+  color: rgb(203, 187, 159);
+  font-family: "Montserrat";
+  text-decoration: underline;
+  position: relative;
+  padding: 16px 10px;
+  display: block;
+}
+
+.page-navigation__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -8px;
+  transform: translate(-50%, -50%);
+  background: url(../icons/next-icon.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10px;
+  /* margin-left: 5px; */
+  height: 10px;
+  fill: #fff;
+}
+
+.page-navigation__link--active {
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+}
+
+.page-navigation__link--active::after {
+  display: none;
+}

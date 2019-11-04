@@ -1,0 +1,55 @@
+/* normalize css */
+@import url("./normalize.css");
+
+/* specifications */
+@import url("./specification.css");
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,600,700&display=swap");
+@import url("./fonts.css");
+
+/* header */
+@import url("./header.css");
+
+/* slider */
+@import url("./slider.css");
+
+/* quote */
+@import url("./quote.css");
+
+/* news */
+@import url("./news.css");
+
+/* friends */
+@import url("./friends.css");
+
+/* bestseller */
+@import url("./bestseller.css");
+
+/* expert */
+@import url("./expert.css");
+
+/* blog */
+@import url("./blog.css");
+
+/* footer */
+@import url("./footer.css");
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: block;
+  max-width: 1300px;
+  margin: 0 auto;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Montserrat-Regular", "Montserrat-LightItalic",
+    "EBGaramond-Regular";
+}
+
+/* * {
+  outline: 1px solid red;
+} */

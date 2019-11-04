@@ -1,0 +1,36 @@
+.container__quote {
+    margin-bottom: 50px;
+}
+
+.quote_text {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    /* font-family: 'EBGaramond-Regular'; */
+    font-family: 'EBGaramond-Medium';
+    font-family: sans-serif;
+
+
+    text-transform: uppercase;
+    font-size: 18px;
+    font-size-adjust: 12px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+.quote__radial__down {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 60px;
+    margin-top: 20px;
+}
+
+
+.quote__radial__up {
+    width: 650px;
+    /* margin-right: 200px; */
+    margin: 0 auto;
+    padding-bottom: 60px;
+}

@@ -1,0 +1,135 @@
+/* FOOTER */
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+  display: block;
+  padding-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.footer__inner {
+  display: flex;
+}
+
+.footer__logo-wrap {
+  margin-right: 30px;
+}
+
+.footer__decs {
+  width: 185px;
+  margin-right: 100px;
+}
+
+.footer__decs p {
+  margin: 0;
+}
+
+.footer__navigations .footer__menu {
+  font-size: 12px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #998158;
+}
+
+.menu__item {
+  margin-right: 18px;
+}
+
+.menu__item a,
+.footer__social a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu__item a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.line {
+  margin-top: 10px;
+  width: 745px;
+  margin-left: 14px;
+}
+
+.footer__navigations-wrap {
+  padding-top: 26px;
+  margin-left: -170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* SOCIAL ICONS */
+.footer__social {
+  margin-left: 616px;
+  padding-top: 8px;
+  color: #b5b1b1;
+}
+
+.footer_icons {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 4px;
+}
+
+.footer_icons__vk {
+  background-image: url(../icons/normal__vk__soc.png);
+}
+
+.footer_icons__facebook {
+  background-image: url(../icons/normal__face__icons.png);
+}
+
+.footer_icons__inst {
+  background-image: url(../icons/normal__insta__icons.png);
+}
+
+.footer_icons__google {
+  background-image: url(../icons/normal__google__icons.png);
+}
+
+.icons__soc {
+  display: flex;
+  justify-content: space-between;
+  width: 30px;
+  height: 30px;
+}
+
+.footer__button {
+  position: relative;
+  display: block;
+  width: 242px;
+  /* padding-left: 30px; */
+  font-size: 14px;
+  background-color: transparent;
+  transform: translateX(110%);
+}
+
+.footer__button::before {
+  /* display: block; */
+  position: absolute;
+  top: -2px;
+  left: -30px;
+  content: "";
+  width: 21px;
+  height: 18px;
+  /* margin-right: 200px; */
+  background-image: url("../icons/icon_shape.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,600,700&display=swap");
+
+/* MAIN SETUP */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.catalog-section {
+  padding-top: 78px;
+  margin-bottom: 80px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* СATALOG TITLE */
+
+.catalog-section__title {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+/* CATALOG LIST */
+
+.catalog-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.catalog-list-item {
+  display: flex;
+}
+
+.catalog-list-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.catalog-list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.catalog-list-item__img-wrapper {
+  max-width: 350px;
+  padding: 0 30px;
+}
+
+.catalog-list-item__descr-wrapper {
+  max-width: 475px;
+}
+
+.catalog-list-item__descr {
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 38px;
+  padding: 0;
+}
+
+.catalog-list-item__title {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.catalog-list-item__price {
+  margin: 0;
+  margin-bottom: 52px;
+  font-size: 50px;
+}
+
+.catalog-list-item__buy-btn {
+  border: none;
+  font-size: 18px;
+  padding: 12px 54px;
+  cursor: pointer;
+  border-radius: 22px;
+  text-transform: uppercase;
+  background-color: rgb(203, 187, 159);
+}
+
+.catalog-list-item:nth-child(2n) .catalog-list-item__descr-wrapper {
+  text-align: right;
+}

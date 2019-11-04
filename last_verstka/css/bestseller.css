@@ -1,0 +1,151 @@
+.bestseller {
+  padding-top: 88px;
+}
+
+.bestseller-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+}
+
+.bestseller__side,
+.news__side {
+  display: block;
+  width: 50%;
+}
+
+.bestseller__title {
+  position: relative;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Montserrat-semiBold';
+  margin-bottom: 8px;
+}
+
+.bestseller__title::before,
+.bestseller__title::after {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  width: 108px;
+  transform: translateY(-50%);
+  content: '';
+  display: block;
+  border: 1px solid #998158;
+}
+
+.bestseller__title::before {
+  left: 108px;
+}
+
+.bestseller__title::after {
+  right: 108px;
+}
+
+.news__title::before {
+  left: 128px;
+}
+
+.news__title::after {
+  right: 128px;
+}
+
+.bestseller__subtitle {
+  font-family: 'Montserrat-semiBold';
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bestseller__image-wrap {
+  display: block;
+  width: 638px;
+  background-color: #000000;
+  border: 22px solid #fff;
+  box-shadow: 0 0 1px 1px #c7c5c5;
+  margin-bottom: 32px;
+}
+
+.bestseller__img {
+  width: 100%;
+}
+
+.bestseller__desc {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Montserrat-Regular';
+  margin-bottom: 26px;
+}
+
+.bestseller__more {
+  position: relative;
+  width: 146px;
+  height: 30px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-left: 46px;
+}
+
+.bestseller__more::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../img/bestseller/icons_button_bestseller.png);
+}
+
+/* news / rigth side */
+.news__list {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.news__item {
+  width: 238px;
+  margin-bottom: 60px;
+}
+
+.news__item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+}
+
+
+.news__image {
+  display: block;
+  margin: 0 auto;
+}
+
+.news__desc {
+  text-align: center;
+  color: #404042;
+}
+
+.news__more {
+  font-size: 14px;
+  width: 190px;
+  background-color: transparent;
+  border: 1px solid #858585;
+  padding: 10px 0;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 22px;
+  cursor: pointer;
+}
